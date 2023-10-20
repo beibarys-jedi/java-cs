@@ -6,6 +6,11 @@ package kz.java.lessons.lesson1;
 public class Main {
     // main method
     public static void main(String[] args) {
+        System.out.println(10 + 10);
+        System.out.println(10 - 10);
+        System.out.println(10 * 10);
+        System.out.println(10 / 10);
+        System.out.println(10 % 10);
 
      /*   System.out.print("AP");
 

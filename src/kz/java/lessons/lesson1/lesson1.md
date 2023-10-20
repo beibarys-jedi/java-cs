@@ -111,3 +111,101 @@ final boolean SINGULARITY_ROCKS;
 
 # Lecture 3
 ## Arithmetics Expression
+
+We can perform different arithmetic expression within the Java: like addition, subtraction, 
+multiplication, division and modular.
+
+```
+        System.out.println(10 + 10);
+        System.out.println(10 - 10);
+        System.out.println(10 * 10);
+        System.out.println(10 / 10);
+        System.out.println(10 % 10);
+```
+
+Ability to divide an integer by zero will produce Arithmetic Exception.
+
+```
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at kz.java.lessons.lesson1.Main.main(Main.java:12)
+```
+
+## Operators
+Assignment operators can be expressed in the following way.
+```
+x = 7
+```
+So whenever  we code, we can assign the values:
+```
+int firstValue = 13;
+double secondValue = 23.4;
+```
+
+## Compound Assignment Operators:
+
+We have also compound operators like:
+```agsl
+x *= 7;
+x += 7;
+x -= 7;
+x /= 7;
+x $= 7;
+```
+
+Think like a compiler so you can understand:
+1. what happens on each line
+2. trace the code on paper;
+
+## Increment and decrement operators
+We will cover operators like ++ and --.
+
+```x++``` means the following:
+1. take the value stored in x
+2. add 1
+3. assign the result back to x
+
+so x++ means the same ```x = x + 1``` or ```x += 1```.
+
+## Casting and Ranges of variables
+
+We use the casting for changing the data type from one to another.
+
+All practice problems given in:
+1. Casting Numbers
+2. RoundingNegative
+3. RoundingPositive
+
+Integers value are represented by type of int, and integer must be within the value:
+Integer.
+
+```
+System.out.println(Integer.MIN_VALUE);
+System.out.println(Integer.MAX_VALUE);
+```
+## Homework
+Consider the following results:
+1. Example 1
+```
+int num1 = 98568957;
+int num2 = 59871112;
+int result = num1  + num2;
+```
+2. Example 2:
+Another one is when 
+```
+int num1 = 98568957;
+int num2 = 59871112;
+int result = num1  * num2;
+```
+3. Example 3, within data type casting
+```
+int num1 = 46001478;
+double num2 = 15237444.12;
+int result = (int) (num1 * num2);
+```
+4. Example 4:
+```
+int num1 = 68249607551;
+double num2 = 15237444.12;
+int result = (int) (num1 * num2);
+```
