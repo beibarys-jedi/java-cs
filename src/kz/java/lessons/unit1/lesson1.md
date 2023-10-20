@@ -1,4 +1,4 @@
-# Lecture 1
+# Unit 2
 ## System.out.print
 
 In Java, we have the following functions to print anything in the console.
