@@ -1,4 +1,4 @@
-package kz.java.lessons.lesson1;
+package kz.java.lessons.unit1;
 
 public class RoundingPositive {
     public static void main(String[] args) {

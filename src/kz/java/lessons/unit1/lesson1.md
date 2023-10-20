@@ -127,7 +127,7 @@ Ability to divide an integer by zero will produce Arithmetic Exception.
 
 ```
 Exception in thread "main" java.lang.ArithmeticException: / by zero
-	at kz.java.lessons.lesson1.Main.main(Main.java:12)
+	at kz.java.lessons.unit1.Main.main(Main.java:12)
 ```
 
 ## Operators
@@ -144,7 +144,7 @@ double secondValue = 23.4;
 ## Compound Assignment Operators:
 
 We have also compound operators like:
-```agsl
+```
 x *= 7;
 x += 7;
 x -= 7;
@@ -182,7 +182,7 @@ Integer.
 System.out.println(Integer.MIN_VALUE);
 System.out.println(Integer.MAX_VALUE);
 ```
-## Homework
+### Homework
 Consider the following results:
 1. Example 1
 ```
