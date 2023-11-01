@@ -23,8 +23,8 @@ If else
 If else if 
 5. Loops 
 For, while, for each, do while
-6. print functions
+6. Print functions - simple print and printing on new line
 7. Object and classes - OOP and FP
-8. Arrays
+8. Arrays - how to create them and work with methods
 9. Errors - runtime, compile time, syntax
-10. Excpetion - 
+10. Exception - different exceptions
