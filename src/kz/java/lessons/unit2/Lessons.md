@@ -66,3 +66,96 @@ Task 1. Create Employee class with name, ID and pay rate.
 Task 2. Create object person1 with Simon, 7228 and 600000 dollars.
 
 Task 3. Create objects person2, person3, person4 as shown in Employee class.
+
+
+# Methods
+
+Have a look on example with Letter Class.
+
+So let's have an example of Lamp:
+
+Non-static methods can be called through objects of class.
+
+Void methods do not have return values.
+
+Practice with Calculator class.
+Practice with Frog class.
+
+Overloading means having the methods with same name but a different signature.
+
+Method signature is a method name and ordered list of parameter types.
+
+Non void methods return a value same type as type in signature, which
+can be shown in Calculator2
+
+```
+    public double divideBill(int numFriends, double totalBill){
+        double amtPerFriend = totalBill/numFriends;
+        return amtPerFriend;
+    }
+
+```
+
+# String 
+Syntax of creating String class is shown below:
+
+```
+        String name1 = "Jadon Java";
+        // String - class, name1 - variable, Jadon Java - String literal
+
+        String name2 = new String("Jessica Java");
+        // String - new String class using new keyword with parameter
+
+        String name3 = new String(name1);
+        // name1 will be pointing to actual parameter
+```
+Strings objects are immutable, which means unable to be changed. 
+
+Concatenation is the joining of data.
+
+Operators used to concatenate are ```+ - means joins, += means redefines```.
+
+So you can add to 
+
+```
+int myage = 17;
+String name = name1 + myage;
+name1 += myage;
+```
+
+## Escaping sequences
+
+Escaping sequences allows the output of special characters and insert actions.
+
+```\``` Backslash used to start the escape sequences. Don't confuse with forward slash ```/```.
+
+# String methods
+
+```indexOf``` returns the location of the requested element in a ```String```.
+
+```substring``` method the word which begins from index to index.
+
+## Wrapper classes
+
+`Integer` is a class, notice the word is Capitalized.
+`int` is primitive data type, while `Integer` is a reference type.
+
+For `Integer` we have 1 constructor, 3 methods.
+
+For `Double` we have 1 constructor and 1 method.
+
+## Autoboxing
+
+Wrapper classes are used to convert primitive into referencing types.
+
+Autoboxing is automatic conversion of data types from primitive to wrapper classes.
+
+Unboxing is automatic conversion from the wrapper class to the primitive ones.
+
+## JQR Math Class
+```
+static int abs(int x)
+static double abs(double x)
+static double pow(double base, double exponent)
+
+```
