@@ -1,4 +1,4 @@
-package kz.java.homeworks;
+package kz.java.homeworks.day1;
 
 public class OperatorsPart2 {
     public static void main(String[] args) {
